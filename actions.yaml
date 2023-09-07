@@ -1,0 +1,7 @@
+name: "action-mips"
+description: Github Actions installer, compiler and runner MIPS code
+author: Keven S. Lopes <https://github.com/stephan-lopes/>
+
+runs:
+  using: docker
+  image: Dockerfile
